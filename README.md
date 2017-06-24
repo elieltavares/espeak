@@ -7,14 +7,14 @@ Compiling
 
 The  src  directory contains a makefile that produces:
 
-1.  ***"libspeak.so.1.xx" ***.  (where xx is a version number)
+1.  *** "libspeak.so.1.xx" ***.  (where xx is a version number)
     This is a shared library which contains the text to speech engine.
     Its API is described in the file "speak_bin.h".
 
-2.   ***"espeak" *** binary.  This is a small command-line program which is a front
+2.   *** "espeak" *** binary.  This is a small command-line program which is a front
     end to the libespeak library, which it needs.
 
-3.   ***"speak"***  binary.  This is a command-line program which contains the
+3.   *** "speak" ***  binary.  This is a command-line program which contains the
     text to speech engine. It does not use the libespeak library.
 
 
